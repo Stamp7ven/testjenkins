@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'window-agent'} // This means the pipeline can run on any available agent
+    agent { label 'test-connect'} // This means the pipeline can run on any available agent
 
     stages {
         stage('Hello') {
