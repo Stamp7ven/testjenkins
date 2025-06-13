@@ -5,7 +5,9 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello, Jenkins!' // A simple command to print a message
-                sh 'hostnamectl'
+                sh """
+                hostnamectl
+                """
             }
         }
     }
