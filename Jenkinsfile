@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'centos9-linux' }
 
     stages {
         stage('Hello') {
