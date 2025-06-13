@@ -1,5 +1,5 @@
 pipeline {
-    agent window-agent // This means the pipeline can run on any available agent
+    agent 'window-agent' // This means the pipeline can run on any available agent
 
     stages {
         stage('Hello') {
